@@ -8,7 +8,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    background: linear-gradient(90deg, #d3eaf2 0%, #2596be 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,10 @@ body{
     background-color: #eee;
     padding: 20px;
 }
+
+/* .header h2{
+    text-align: center;
+} */
 
 .form{
     padding: 20px;
@@ -66,8 +70,22 @@ small{
     visibility: hidden;
 }
 
-button{
-    background-color: #fc00ff;
+#submit-button{
+    background-color: #7cc0d8;
+    color: #eee;
+    border: #f0f0f0;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#submit-button ::placeholder{
+    color: #eee;
+}
+
+/* button{
+    background-color: #7cc0d8;
     color: #eee;
     border: #f0f0f0;
     font-size: 14px;
@@ -75,4 +93,10 @@ button{
     border-radius: 10px;
     padding: 10px;
 
+} */
+
+.error{
+    color: red;
+    visibility: visible;
 }
+

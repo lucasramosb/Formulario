@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
                     <input type="text" id="username" placeholder="Digite seu nome de usuario">
                     <i class="fas fa-exclamation-circle"></i>
                     <i class="fas fa-check-circle"></i>
-                    <small>Mensagem de Erro</small>
+                    <small class="mensErro">Mensagem de Erro</small>
                 </div>
 
                 <div id="form-control">
@@ -34,7 +35,7 @@
                     <input type="text" id="email" placeholder="Digite seu E-mail">
                     <i class="fas fa-exclamation-circle"></i>
                     <i class="fas fa-check-circle"></i>
-                    <small>Mensagem de Erro</small>
+                    <small class="mensErro">Mensagem de Erro</small>
                 </div>
 
                 <div id="form-control">
@@ -42,7 +43,7 @@
                     <input type="text" id="password" placeholder="Digite sua senha">
                     <i class="fas fa-exclamation-circle"></i>
                     <i class="fas fa-check-circle"></i>
-                    <small>Mensagem de Erro</small>
+                    <small class="mensErro">Mensagem de Erro</small>
                 </div>
 
                 <div id="form-control">
@@ -50,16 +51,20 @@
                     <input type="text" id="password-confirmation" placeholder="Confirme sua senha">
                     <i class="fas fa-exclamation-circle"></i>
                     <i class="fas fa-check-circle"></i>
-                    <small>Mensagem de Erro</small>
+                    <small class="mensErro">Mensagem de Erro</small>
                 </div>
+
+                <input type="submit" value="submit" placeholder="Enviar" id="submit-button">
                 
-                <button type="submit">Enviar</button>
+                <!-- <button type="submit" id="submit-button" onclick="enviar()">Enviar</button> -->
 
             </form>
         </div>
         
     </div>
 
+    <!-- JS -->
+    <script src="main.js"></script>
 
     <script src="https://kit.fontawesome.com/13fb06a733.js" crossorigin="anonymous"></script>
 </body>
